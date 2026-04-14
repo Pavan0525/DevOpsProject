@@ -19,11 +19,20 @@
         h2 {
             color: #16a085;
         }
+        .time {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
     </style>
 </head>
 
 <body>
-    <h1>🔥 DevOps Project Successfully Deployed 🔥</h1>
+    <h1>🚀 Webhook CI/CD Working Successfully 🚀</h1>
     <h2>By Pavan 💪</h2>
+
+    <div class="time">
+        Last Updated: <%= new java.util.Date() %>
+    </div>
 </body>
 </html>
