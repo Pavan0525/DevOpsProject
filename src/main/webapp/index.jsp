@@ -1,38 +1,38 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Project</title>
-
+    <title>DevOps CI/CD Project</title>
     <style>
         body {
+            font-family: Arial;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
             text-align: center;
             margin-top: 100px;
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
         }
-        h1 {
-            color: #2c3e50;
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
         }
-        h2 {
-            color: #16a085;
-        }
-        .time {
-            margin-top: 20px;
+        a {
+            color: #00ffcc;
+            text-decoration: none;
             font-size: 18px;
-            color: #555;
         }
     </style>
 </head>
 
 <body>
-    <h1>🚀 Webhook CI/CD Working Successfully 🚀</h1>
-    <h2>By Pavan 💪</h2>
+    <div class="card">
+        <h1>🚀 DevOps CI/CD Pipeline</h1>
+        <h3>Deployed using Jenkins + Docker + Render</h3>
+        <p>By Pavan 💪</p>
 
-    <div class="time">
-        Last Updated: <%= new java.util.Date() %>
+        <br>
+        <a href="login.jsp">🔐 Go to Login Page</a>
     </div>
 </body>
 </html>
